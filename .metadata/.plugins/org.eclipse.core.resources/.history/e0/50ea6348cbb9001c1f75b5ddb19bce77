@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class String_and_Methods {
+
+	public static void main(String[] args) {
+//Ex1
+		capitalize("piRAteS");
+		}
+	public static void capitalize(String word) {
+		String inputWord = word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase();
+		System.out.println(""+ inputWord);
+	}
+}

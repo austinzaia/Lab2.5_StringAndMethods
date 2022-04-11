@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class String_and_Methods {
+
+	public static void main(String[] args) {
+//Ex1
+		System.out.println("Please enter one word:");
+		Scanner scnr = new Scanner(System.in);
+		String inputWord = scnr.nextLine();
+		capitalize(inputWord);
+		}
+	public static void capitalize(String word) {
+		Scanner scnr = new Scanner(System.in);
+		String inputWord = scnr.nextLine();
+		String inputResult = inputWord.substring(0,1).toUpperCase() + inputWord.substring(1);
+	}
+}
